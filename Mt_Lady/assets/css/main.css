@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Highlight the selected input field */
+.highlight {
+    border: 2px solid #007bff;  /* Blue border for highlighted input field */
+}
+
+/* Optional: Style for the rectangular border around SVG text */
+.highlighted-rect {
+    transition: stroke 0.3s ease;  /* Smooth transition for stroke color */
+}
+
+/* Optional: Remove the stroke around SVG text when highlighted */
+text[data-id] {
+    transition: stroke 0.3s ease;
+}
